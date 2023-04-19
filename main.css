@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    background-color: blueviolet;
+    /* height: 90vh; */
+
+.main-container {
+    /* border: 1px solid red; */
+    height: 100vh;
+    /* height: 00px; */
+    background-color: hsl(240, 75%, 98%);
+    /* background-color: hsl(240, 75%, 98%); */
+    /* background-color: blueviolet; */
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+    /* padding-bottom: 10px; */
+    margin: auto;
+    /* padding: 10px; */
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 50px;
+    background-color: ;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.nav-img {
+    color: white;
+     /* width: 10%; */
+     /* height: 50%;  */
+}
+
+.nav-header {
+    display: flex;
+    /* border: 1px solid; */
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* outline: 2px solid aqua; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    /* background-color: hsl(240, 75%, 98%); */
+    /* color: white; */
+    height: 250px;
+    padding: 20px;
+    /* background-image: url(images/illustration-1.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20%; */
+}
+
+
+h1 {
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+p {
+    margin-top: 8px;
+}
+
+
+.ancor-control {
+    margin-top: 10px;
+}
+
+
+input[type=text] {
+    width: 40%;
+    height: 40px;
+    border-color:;
+    border-width: 1px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+input[type=text]::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+
+input[type=text]:hover {
+    border-color: red;
+}
+
+
+.input-btn-container {
+    /* border: 1px solid; */
+    margin-top: 50px;
+}
+
+
+button {
+    width: 20%;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+
+section {
+    /* border: 2px solid rgb(14, 22, 14); */
+    /* margin-top: 0px; */
+    display: flex;
+    padding: 20px;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding-right: 15%;
+    align-items: center;
+    height: 370px;
+    
+    /* background-image: url(images/illustration-2.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: 20%; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.box {
+    box-shadow: 0 0 5px #88888888;
+    background-color: white;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: right; */
+    /* align-self: center; */
+    /* justify-items: center; */
+    /* color: white; */
+    margin-top: 15px;
+    width: 25%;
+    padding: 10px;
+    /* padding-left: 6px;
+    padding-bottom: 10px; */
+    /* padding: 5px; */
+}
+
+
+.box img {
+    width: 10%;
+}
+
+
+.box-nav {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    height: 40px;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+
+    /* background-color: white; */
+    gap: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 8px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+
+.box-nav p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.box-paragraphs {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+
+.box-paragraphs p {
+    font-weight: 700;
+}
+.box .box-icon {
+    width: 6%;
+    color: white;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+
+.para {
+    /* margin-top: px; */
+    font-size: 14px;
+    /* border: 1px solid green; */
+    
+}
+
+
+.box-imgg {
+    /* border: 1px solid blue; */
+    height: 5vh;
+    width: 17%;
+    background-image: url(images/avatar-testimonial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
+    border-radius: 26px;
+    left: -20px;
+}
+
+
+ .header-image {
+    /* outline: 1px solid red; */
+     display: flex; 
+     margin-right: 15%;
+
+    left: 50px; */
+    width: 50%;
+    /* align-items: left; */
+    height: 220px;
+}
+
+.section-header-image {
+    /* outline: 1px solid blue; */
+    /* display: flex;
+    justify-content: right;
+    /* width: 70%; */
+    /* align-items: center; */ */
+    /* height: 220px; */
+}
+
+.section-cont {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.fabre {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+@media only screen and (max-width: 600px) {
+        .container {
+            flex-direction: column;
+            background-color: red;
+        }
+}
